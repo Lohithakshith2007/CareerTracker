@@ -63,7 +63,7 @@ function SettingsPage({ profile, preferences, onSave }) {
 
         <div className="settings-save-row">
           {saveMessage && <p role="status" className="settings-save-message">{saveMessage}</p>}
-          <button className="btn btn-primary" style={{ width: 'auto' }} onClick={saveSettings}>Save Preferences</button>
+          <button className="btn btn-primary" style={{ width: 'auto', marginTop: '1.5rem' }} onClick={saveSettings}>Save Preferences</button>
         </div>
       </div>
     </div>
